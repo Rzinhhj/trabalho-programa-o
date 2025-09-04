@@ -1,0 +1,68 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .username {
+      font-size: 20px;
+      font-weight: bold;
+      color: #4a3aff;
+      margin-top: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 90%;
+      max-width: 350px;
+      margin: 10px auto;
+      padding: 14px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      
+      
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn img {
+      width: 20px;
+      height: 20px;
+    }
+
+    
+    .whatsapp { background-color: rgba(0,105,91,255); }
+    .telegram { background-color: rgba(21,100,192,255); }
+    .twitter { background-color: rgba(21,100,192,255); }
+    .instagram { background-color:rgba(246,124,1,255) ; }
+    .youtube { background-color:rgba(248,0,0,255) ; }
+    .linkedin { background-color: rgba(14,71,161,255); }
+
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #4a3aff;
+    }
